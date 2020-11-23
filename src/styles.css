@@ -13,8 +13,63 @@ body {
     Oxygen-Sans, Ubuntu, Cantarell, 'Helvetica Neue', sans-serif,
     'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol';
 
-  /*
-   * CSS image reference example.
-   */
-  /* background-image: url('./images/bg-pattern.png'); */
+
+    
+    background-size: 50px 50px;
+background-color: #726144;
+background-image: -webkit-linear-gradient(0deg, #5a4e39 50%, transparent 50%, transparent);
+background-image: -moz-linear-gradient(0deg, #5a4e39 50%, transparent 50%, transparent);
+background-image: linear-gradient(90deg, #5a4e39 50%, transparent 50%, transparent);
 }
+/* .push-message{
+  
+} */
+
+.countries-title{
+  text-align: center;
+
+  color: floralwhite;
+  font-size: 56px ;
+}
+.countries{
+  position: relative;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 100px;
+}
+.info-list{
+  color: blanchedalmond;
+  font-size: 30px;
+}
+
+.flag{
+  position: absolute;
+  bottom: 50px;
+  right: 307px;
+}
+
+label{
+  position: absolute;
+  top: 30px;
+  right: 42%;
+}
+.countries-input{
+  font-size: 30px;
+  padding: 2px;
+}
+.pnotify-container{
+  width: 600px;
+  height: 250px;
+  position: absolute;
+  top: 120px;
+  right: 8%;
+}
+
+.pnotify-pre-line{
+  font-size: 24px;
+  line-height: 47px;
+  text-align: left;
+}
+
